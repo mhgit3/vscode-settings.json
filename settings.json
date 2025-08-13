@@ -1,0 +1,94 @@
+{
+    // Theme and Icons
+    "workbench.colorTheme": "GitHub Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    // Auto Rename Tags
+    "editor.linkedEditing": true,
+    "javascript.preferences.renameMatchingJsxTags": true,
+    "typescript.preferences.renameMatchingJsxTags": true,
+    // Auto Close Tags
+    "html.autoClosingTags": true,
+    "javascript.autoClosingTags": true,
+    "typescript.autoClosingTags": true,
+    // Auto Import Suggestions
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always"
+    },
+    // Whitespace Trimming
+    "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+    // Bracket Pair Colorization and Indentation Guides
+    "editor.guides.bracketPairs": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.highlightActiveIndentation": true,
+    "editor.guides.bracketPairsHorizontal": "active",
+    "workbench.colorCustomizations": {
+        "[GitHub Dark]": {
+            "editorBracketHighlight.foreground1": "#E6E6E6",
+            "editorBracketHighlight.foreground2": "#FF75B5",
+            "editorBracketHighlight.foreground3": "#19f9d8",
+            "editorBracketHighlight.foreground4": "#B084EB",
+            "editorBracketHighlight.foreground5": "#45A9F9",
+            "editorBracketHighlight.foreground6": "#FFB86C",
+            "editorBracketHighlight.unexpectedBracket.foreground": "#FF2C6D",
+            "editorBracketPairGuide.background1": "#FFB86C",
+            "editorBracketPairGuide.background2": "#FF75B5",
+            "editorBracketPairGuide.background3": "#45A9F9",
+            "editorBracketPairGuide.background4": "#B084EB",
+            "editorBracketPairGuide.background5": "#E6E6E6",
+            "editorBracketPairGuide.background6": "#19f9d8",
+            "editorBracketPairGuide.activeBackground1": "#FFB86C",
+            "editorBracketPairGuide.activeBackground2": "#FF75B5",
+            "editorBracketPairGuide.activeBackground3": "#45A9F9",
+            "editorBracketPairGuide.activeBackground4": "#B084EB",
+            "editorBracketPairGuide.activeBackground5": "#E6E6E6",
+            "editorBracketPairGuide.activeBackground6": "#19f9d8",
+        }
+    },
+    // Emmet Formatting
+    "emmet.syntaxProfiles": {
+        "html": {
+            "inline_break": 1
+        }
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    // Comment Styling
+    "editor.tokenColorCustomizations": {
+        "comments": {
+            "fontStyle": "italic",
+            "foreground": "#6A737D"
+        }
+    },
+    // Code Formatting
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+}
